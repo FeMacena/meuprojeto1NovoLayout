@@ -1,0 +1,78 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+#corpo {
+  width: 626px;
+  height: 486px;
+  margin: 64px auto 240px;
+}
+
+#corpo img {
+  margin-bottom: 32px;
+}
+
+h1 {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span {
+  color: #EE24FF;
+}
+
+p {
+  margin: 0px auto 64px;
+  width: 540px;
+  text-align: center;
+  color: #7D7987;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+#footer {
+  margin: auto;
+  width: 1024px;
+}
+
+#footer p{
+  color: #7D7987;
+  font-size: 15px;
+  line-height: 23px;
+}
+
+/* pegar o "a" que tem um "a" antes */
+#footer a + a {
+  margin-left: 27px;
+}
+
+a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+a, .boldblue {
+  color: #3F3D56;
+  text-decoration: none;
+}
+
+.line {
+  margin: auto;
+  width: 300px;
+  border: 1px solid #ECEFF2;
+}
+
+#wave {
+  margin: auto;
+}
